@@ -21,15 +21,14 @@ const hf = document.createElement("p");
 hf.id = "Heading";
 divf2.appendChild(hf);
 document.getElementById("Heading").className =
-  "text-gray-950 text-left text-4xl";
+  "text-gray-950 text-left text-4xl h-20";
 
 const img = document.createElement("img");
 img.id = "img";
-// img.src =
-// "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS17WzPmMAmCuYQc3D05gmq8XUejW-_aFU3A8k7QWyL&s";
 divf2.appendChild(img);
-document.getElementById("img").className = "w-full mt-7 mb-7";
+document.getElementById("img").className = "object-cover h-3/6 m-7";
 
 const hf2 = document.createElement("p");
 hf2.id = "description";
 divf2.appendChild(hf2);
+document.getElementById("description").className = "h-32";
